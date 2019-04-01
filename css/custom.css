@@ -1,0 +1,51 @@
+/* RESET */
+.feature a .left-corner,
+.feature a .right-corner,
+.feature a .left-corner.bottom,
+.feature a .right-corner.bottom,
+.feature a .covering-image h4 {opacity:1}
+.feature a .covering-image p {opacity:.7}
+.box-parent .child {padding-top:0}
+.grey-bg,
+.grey-bg2 {padding:5%}
+a:hover {color:#fff}
+
+
+/* HEADER */
+#header {background-color:rgba(0,0,0,.7)}
+#header:hover {background-color:#000}
+#main-nav > ul .active > a,
+#main-nav > ul a.active,
+#main-nav li a:hover,
+#options li a.current,
+#options li a.selected {color:#fff}
+#options li a.selected {position:relative}
+#options li a.selected:after {content:'';position:absolute;left:0;bottom:15px;width:100%;height:1px;background-color:#999}
+#main-nav ul#options li .sub-nav > li > a {color:#555}
+#main-nav ul#options li .sub-nav > li > a:hover {color:#000}
+#main-nav ul#options li .sub-nav > li > a.selected:after {width:0;height:0;background-color:transparent}
+.social-list li a i {color:#888}
+.social-list li a:hover i {color:#fff}
+
+/* CONTENT */
+/* logo */
+h1#logo a {width:150px;height:90px;background-image:url(../images/logo_paintly_wh.png);background-size:150px auto}
+/* figure */
+.feature .padding-wrapper a figure {-webkit-filter:grayscale(100%);filter:gray}
+.feature .padding-wrapper a:hover figure {-webkit-filter:grayscale(0%);filter:none}
+.padding-wrapper .covering-image .txt {display:block;font-size:1.5rem;font-weight:200}
+
+/* background-image */
+.background-image {height:100%;display:block;width:100%;background:no-repeat center;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+.background-image4 {background-image:url(../images/photo09b.jpg)}
+.thumb_fx_01 {background-image:url(../images/img_gallery_01.jpg)}
+.thumb_fx_02 {background-image:url(../images/img_gallery_02.jpg)}
+.thumb_fx_03 {background-image:url(../images/img_gallery_03.png)}
+.thumb_fx_04 {background-image:url(../images/img_gallery_04.jpg)}
+.thumb_fx_05 {background-image:url(../images/img_gallery_05.jpg)}
+.thumb_fx_06 {background-image:url(../images/img_gallery_06.jpg)}
+
+/* .about */
+.icons.mission {width:auto;height:auto;font-size:2rem;color:#000}
+
+
