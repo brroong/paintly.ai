@@ -70,7 +70,7 @@ h1#logo a {width:150px;height:90px;background-image:url(../images/logo_paintly_w
   .larger-text blockquote {padding:10px 20px}
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 767px){
   #main-nav > ul .active > a,
   #main-nav > ul a.active,
   #main-nav li a:hover,
