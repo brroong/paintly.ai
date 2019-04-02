@@ -69,3 +69,14 @@ h1#logo a {width:150px;height:90px;background-image:url(../images/logo_paintly_w
 @media screen and (max-width: 991px){
   .larger-text blockquote {padding:10px 20px}
 }
+
+@media screen and (max-width: 991px){
+  #main-nav > ul .active > a,
+  #main-nav > ul a.active,
+  #main-nav li a:hover,
+  #options li a.current,
+  #options li a.selected {color:#000}
+  .menu-open #main-nav ul#options li:after {position:static;border-bottom:0 none}
+  .menu-open #header {background-color:#000}
+  .nav-bar {background-color:#aaa}
+}
