@@ -1,4 +1,12 @@
+/* COMMON */
+p.align_l {text-align:left}
+p.align_c {text-align:center}
+p.align_r {text-align:right}
+.txt_bar {display:inline-block;padding:0 4px;color:#ddd}
+
 /* RESET */
+body {font-family:'Lora', 'Nanum Gothic', 'Helvetica Neue', Helvetica,  Arial, sans-serif}
+a:hover {color:#fff}
 .feature a .left-corner,
 .feature a .right-corner,
 .feature a .left-corner.bottom,
@@ -8,8 +16,11 @@
 .box-parent .child {padding-top:0}
 .grey-bg,
 .grey-bg2 {padding:5%}
-a:hover {color:#fff}
-
+.grey-bg-large h2 {max-width:65%}
+.larger-text {margin-top:50px}
+.larger-text p {word-break:keep-all}
+.larger-text blockquote p {font-family:'Lora', serif}
+.contains-rectangles {margin-top:50px}
 
 /* HEADER */
 #header {background-color:rgba(0,0,0,.7)}
@@ -48,4 +59,13 @@ h1#logo a {width:150px;height:90px;background-image:url(../images/logo_paintly_w
 /* .about */
 .icons.mission {width:auto;height:auto;font-size:2rem;color:#000}
 
+/* article */
 
+
+
+
+
+
+@media screen and (max-width: 991px){
+  .larger-text blockquote {padding:10px 20px}
+}
