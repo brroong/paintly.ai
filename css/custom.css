@@ -6,6 +6,7 @@ p.align_r {text-align:right}
 
 /* RESET */
 body {font-family:'Lora', 'Nanum Gothic', 'Helvetica Neue', Helvetica,  Arial, sans-serif}
+/* a, a * {-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s} */
 a:hover {color:#fff}
 .feature a .left-corner,
 .feature a .right-corner,
@@ -38,17 +39,27 @@ a:hover {color:#fff}
 .social-list li a i {color:#888}
 .social-list li a:hover i {color:#fff}
 
+
+
+
 /* CONTENT */
+
 /* logo */
-h1#logo a {width:150px;height:90px;background-image:url(../images/logo_paintly_wh.png);background-size:150px auto}
+h1#logo a {width:200px;height:90px;background-image:url(../images/logo_paintlyfx_wh.png);background-size:200px auto}
+
 /* figure */
-.feature .padding-wrapper a figure {-webkit-filter:grayscale(100%);filter:gray}
-.feature .padding-wrapper a:hover figure {-webkit-filter:grayscale(0%);filter:none}
-.padding-wrapper .covering-image .txt {display:block;font-size:1.5rem;font-weight:200}
+/* .feature .padding-wrapper a figure {-webkit-filter:grayscale(100%);filter:gray}
+.feature .padding-wrapper a:hover figure {-webkit-filter:grayscale(0%);filter:none} */
 
 /* background-image */
-.background-image {height:100%;display:block;width:100%;background:no-repeat center;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
-.background-image4 {background-image:url(../images/photo09b.jpg)}
+.background-image {height:100%;display:block;width:100%;background:no-repeat center;-webkit-background-size:100% auto;-moz-background-size:100% auto;-o-background-size:100% auto;background-size:100% auto;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
+.feature .padding-wrapper a .images {background-image:url(../images/img_tit_base.jpg)}
+.feature .padding-wrapper a .background-image2 {background-image:url(../images/img_tit_bw.jpg)}
+.feature .padding-wrapper a:hover .background-image1 {background-image:url(../images/img_tit_01.jpg)}
+.feature .padding-wrapper a:hover .background-image2 {background-image:url(../images/img_tit_02.jpg)}
+.feature .padding-wrapper a:hover .background-image3 {background-image:url(../images/img_tit_03.jpg)}
+.feature .padding-wrapper a:hover .background-image4 {background-image:url(../images/img_tit_04.jpg)}
+.padding-wrapper .covering-image .txt {display:block;font-size:1.5rem;font-weight:200}
 .thumb_fx_01 {background-image:url(../images/img_gallery_01.jpg)}
 .thumb_fx_02 {background-image:url(../images/img_gallery_02.jpg)}
 .thumb_fx_03 {background-image:url(../images/img_gallery_03.png)}
@@ -59,18 +70,15 @@ h1#logo a {width:150px;height:90px;background-image:url(../images/logo_paintly_w
 /* .about */
 .icons.mission {width:auto;height:auto;font-size:2rem;color:#000}
 
-/* article */
 
 
 
 
-
-
-@media screen and (max-width: 991px){
+@media screen and (max-width:991px){
   .larger-text blockquote {padding:10px 20px}
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width:767px){
   #main-nav > ul .active > a,
   #main-nav > ul a.active,
   #main-nav li a:hover,
