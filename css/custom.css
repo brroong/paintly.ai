@@ -41,6 +41,7 @@ p.small {font-size:12px !important}
 #main-nav ul#options li .sub-nav > li > a.selected:after {width:0;height:0;background-color:transparent}
 .social-list li a i {font-size:19px;color:#888}
 .social-list li a:hover i {color:#fff}
+.stats {padding:15px 11%}
 .stats p {font-size:95%}
 .send-btn {font-size:12px !important}
 
