@@ -21,7 +21,7 @@ a:hover {color:#fff}
 .larger-text p {word-break:keep-all}
 .larger-text blockquote p {font-family:'Lora', serif}
 .contains-rectangles {margin-top:50px}
-h4 {font-size:23px}
+h4 {font-size:24px;line-height:30px}
 p.small {font-size:12px !important}
 .parent {width:250px}
 
@@ -69,7 +69,7 @@ a:hover .images {opacity:0.5}
 .feature .padding-wrapper a:hover .background-image2 {background-image:url(../images/img_tit_02.jpg)}
 .feature .padding-wrapper a:hover .background-image3 {background-image:url(../images/img_tit_03.jpg)}
 .feature .padding-wrapper a:hover .background-image4 {background-image:url(../images/img_tit_04.jpg)}
-.padding-wrapper .covering-image .txt {display:block;margin-top:10px;font-size:1.6rem;line-height:20px;font-weight:200}
+.padding-wrapper .covering-image .txt {display:block;margin-top:10px;font-size:1.8rem;line-height:20px;font-weight:200}
 .image-caption {font-size:13px}
 .thumb_fx_01 {background-image:url(../images/img_gallery_01.jpg)}
 .thumb_fx_02 {background-image:url(../images/img_gallery_02.jpg)}
@@ -101,7 +101,6 @@ a:hover .images {opacity:0.5}
   .menu-open #header {background-color:#000}
   .menu-open #main-nav a {font-size:15px}
   .menu-open #main-nav ul#options li:after {position:static;border-bottom:0 none}
-  
   .nav-bar {background-color:#aaa}
   #nav-button {width:22px;margin-top:8px}
   .nav-bar {width:22px;margin-bottom:4px}
@@ -113,4 +112,7 @@ a:hover .images {opacity:0.5}
   header .container {padding-left:12px;padding-right:12px}
   .pc_txt {display:none}
   .m_txt {display:block}
+  p.small {font-size:14px !important}
+  h4 {font-size:27px;line-height:30px}
+  .padding-wrapper .covering-image .txt {font-size:2rem}
 }
