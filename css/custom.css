@@ -91,7 +91,8 @@ a:hover .images {opacity:0.5}
 }
 
 @media only screen and (max-width:767px){
- 
+  .grey-bg-large {padding:8%}
+  .grey-bg-large h2 {width:100%}
   #main-nav > ul .active > a,
   #main-nav > ul a.active,
   #main-nav li a:hover,
