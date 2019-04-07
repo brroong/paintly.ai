@@ -69,7 +69,7 @@ a:hover .images {opacity:0.5}
 .feature .padding-wrapper a:hover .background-image2 {background-image:url(../images/img_tit_02.jpg)}
 .feature .padding-wrapper a:hover .background-image3 {background-image:url(../images/img_tit_03.jpg)}
 .feature .padding-wrapper a:hover .background-image4 {background-image:url(../images/img_tit_04.jpg)}
-.padding-wrapper .covering-image .txt {display:block;margin-top:10px;font-size:1.8rem;line-height:20px;font-weight:200}
+.padding-wrapper .covering-image .txt {display:block;margin-top:10px;font-size:1.8rem;line-height:24px;font-weight:200}
 .image-caption {font-size:13px}
 .thumb_fx_01 {background-image:url(../images/img_gallery_01.jpg)}
 .thumb_fx_02 {background-image:url(../images/img_gallery_02.jpg)}
